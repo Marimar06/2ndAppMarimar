@@ -11,17 +11,6 @@
 <p><button onclick="save()" type="button"> SAVE ME! </button></p>
 <p><button onclick="remember()" type="button"> REMEMBER ME! </button></p>
 
-<br>
-<script>
-	function save(){
-		window.localStorage['foods'] = document.getElementById('foods').value;
-	}
-	function remember(){
-		document.getElementById('foods').value = window.localStorage['foods'];
-	}
-</script>
-
-
 </center>
 
 </body>
